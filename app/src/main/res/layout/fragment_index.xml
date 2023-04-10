@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Index.IndexFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:background="#FF9900">
+
+            <Spinner
+                android:id="@+id/certificate"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:entries="@array/certificate_choice"
+                ></Spinner>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/certificate"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/all_topic"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/certificate"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="2717\n总题数"
+                        android:textColor="#E4E3E3"
+                        android:textSize="20dp"></TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+                    <!--                <com.example.overtestdemo01.Utils.CircleProgressView-->
+                    <!--                    android:id="@+id/circleProgressbar"-->
+                    <!--                    android:layout_width="100dp"-->
+                    <!--                    android:layout_height="100dp"-->
+                    <!--                    android:layout_gravity="center"-->
+                    <!--                    android:layout_marginLeft="20dp"-->
+                    <!--                    />-->
+                    <com.example.overtestdemo01.Utils.MyCircleProgress
+                        android:id="@+id/simple"
+                        android:layout_width="100dip"
+                        android:layout_height="100dip"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/residue_time"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/all_topic"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginTop="24dp"
+                            android:text="92天"
+                            android:textColor="@color/white"
+                            android:textSize="20dp"
+                            tools:ignore="NotSibling"></TextView>
+
+                        <TextView
+                            android:id="@+id/residue_time_dic"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/residue_time"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="10dp"
+                            android:text="剩余时间"
+                            android:textSize="20dp"
+                            android:textColor="@color/white"></TextView>
+                    </RelativeLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#7E7E7E"
+            ></View>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="练习"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            ></TextView>
+
+        <com.example.overtestdemo01.Utils.MyExpandableListView
+            android:id="@+id/ep_lv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true"></com.example.overtestdemo01.Utils.MyExpandableListView>
+    </LinearLayout>
+
+
+</ScrollView>

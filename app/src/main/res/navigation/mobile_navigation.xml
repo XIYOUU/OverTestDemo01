@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/indexFragment">
+    <fragment
+        android:id="@+id/indexFragment"
+        android:name="com.example.overtestdemo01.Index.IndexFragment"
+        android:label="fragment_index"
+        tools:layout="@layout/fragment_index" />
+    <fragment
+        android:id="@+id/sortFragment"
+        android:name="com.example.overtestdemo01.SortFragment"
+        android:label="fragment_sort"
+        tools:layout="@layout/fragment_sort" />
+    <fragment
+        android:id="@+id/userFragment"
+        android:name="com.example.overtestdemo01.User.UserFragment"
+        android:label="fragment_user"
+        tools:layout="@layout/fragment_user" />
+</navigation>

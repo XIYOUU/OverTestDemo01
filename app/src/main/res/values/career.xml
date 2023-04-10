@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="career_choice">
+        <item>后端开发</item>
+        <item>前端开发</item>
+        <item>软件测试</item>
+        <item>数据库管理员</item>
+        <item>Android开发</item>
+    </string-array>
+</resources>

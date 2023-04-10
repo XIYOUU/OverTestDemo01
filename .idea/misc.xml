@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/AllProject/OverTestDemo01/app/src/main/res/drawable/arrow_right.xml" value="0.132" />
+        <entry key="..\:/Android/AllProject/OverTestDemo01/app/src/main/res/drawable/arrow_right_white.xml" value="0.1395" />
+        <entry key="..\:/Android/AllProject/OverTestDemo01/app/src/main/res/drawable/bottom_btn_selected_color.xml" value="0.1" />
+        <entry key="..\:/Android/AllProject/OverTestDemo01/app/src/main/res/drawable/bottom_normal_text.xml" value="0.1" />
+        <entry key="..\:/Android/AllProject/OverTestDemo01/app/src/main/res/drawable/bottom_selected_text.xml" value="0.1" />
+        <entry key="..\:/Android/AllProject/OverTestDemo01/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.108" />
+        <entry key="..\:/Android/AllProject/OverTestDemo01/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.142" />
+        <entry key="..\:/Android/AllProject/OverTestDemo01/app/src/main/res/drawable/index.xml" value="0.108" />
+        <entry key="..\:/Android/AllProject/OverTestDemo01/app/src/main/res/drawable/simple_round_progress.xml" value="0.1585" />
+        <entry key="..\:/Android/AllProject/OverTestDemo01/app/src/main/res/drawable/style.xml" value="0.16" />
+        <entry key="..\:/Android/AllProject/OverTestDemo01/app/src/main/res/drawable/style_expandablelistview_selector.xml" value="0.1535" />
+        <entry key="..\:/Android/AllProject/OverTestDemo01/app/src/main/res/drawable/style_progress_bar_color.xml" value="0.158" />
+        <entry key="..\:/Android/AllProject/OverTestDemo01/app/src/main/res/drawable/style_radiu.xml" value="0.1525" />
+        <entry key="..\:/Android/AllProject/OverTestDemo01/app/src/main/res/drawable/style_radiu_buy.xml" value="0.1525" />
+        <entry key="..\:/Android/AllProject/OverTestDemo01/app/src/main/res/drawable/style_radiu_head.xml" value="0.1525" />
+        <entry key="..\:/Android/AllProject/OverTestDemo01/app/src/main/res/layout/activity_main.xml" value="0.12132725430597771" />
+        <entry key="..\:/Android/AllProject/OverTestDemo01/app/src/main/res/layout/activity_nav_main.xml" value="0.2" />
+        <entry key="..\:/Android/AllProject/OverTestDemo01/app/src/main/res/layout/activity_user_info.xml" value="0.24094202898550723" />
+        <entry key="..\:/Android/AllProject/OverTestDemo01/app/src/main/res/layout/fragment_dashboard.xml" value="0.12132725430597771" />
+        <entry key="..\:/Android/AllProject/OverTestDemo01/app/src/main/res/layout/fragment_home.xml" value="0.12132725430597771" />
+        <entry key="..\:/Android/AllProject/OverTestDemo01/app/src/main/res/layout/fragment_index.xml" value="0.2" />
+        <entry key="..\:/Android/AllProject/OverTestDemo01/app/src/main/res/layout/fragment_notifications.xml" value="0.12132725430597771" />
+        <entry key="..\:/Android/AllProject/OverTestDemo01/app/src/main/res/layout/fragment_sort.xml" value="0.22826086956521738" />
+        <entry key="..\:/Android/AllProject/OverTestDemo01/app/src/main/res/layout/fragment_user.xml" value="0.264" />
+        <entry key="..\:/Android/AllProject/OverTestDemo01/app/src/main/res/layout/lo_list_view_item.xml" value="0.2" />
+        <entry key="..\:/Android/AllProject/OverTestDemo01/app/src/main/res/layout/lo_primary_itle.xml" value="0.25" />
+        <entry key="..\:/Android/AllProject/OverTestDemo01/app/src/main/res/menu/bottom_nav_menu.xml" value="0.24947916666666667" />
+        <entry key="..\:/Android/AllProject/OverTestDemo01/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
